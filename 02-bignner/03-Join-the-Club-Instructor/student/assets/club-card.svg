@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 620 555" role="img" aria-labelledby="title desc">
+<title id="title">Happy Club membership card with a smiling flower</title>
+<desc id="desc">A purple membership card on a pink and yellow background, decorated with a friendly daisy and stars.</desc>
+<defs>
+ <filter id="shadow" x="-30%" y="-30%" width="160%" height="170%"><feDropShadow dx="4" dy="16" stdDeviation="15" flood-color="#39276c" flood-opacity=".26"/></filter>
+ <filter id="smallshadow"><feDropShadow dx="0" dy="6" stdDeviation="3" flood-color="#563d6d" flood-opacity=".15"/></filter>
+</defs>
+<path d="M89 164C29 231 38 354 114 443c66 77 195 84 286 33 98-55 134-169 105-257-31-92-140-157-238-135C204 101 131 114 89 164Z" fill="#F9B7C6"/>
+<circle cx="493" cy="112" r="70" fill="#FDF0AA"/>
+<circle cx="99" cy="425" r="28" fill="#FFDB86"/>
+<g transform="rotate(-8 317 284)" filter="url(#shadow)">
+ <rect x="83" y="118" rx="31" width="471" height="327" fill="#5945B7"/>
+ <rect x="98" y="133" rx="23" width="441" height="297" fill="none" stroke="#9989E6" stroke-width="2" stroke-dasharray="6 9" opacity=".6"/>
+ <text x="122" y="181" fill="#FFF6EA" font-family="Arial,sans-serif" font-size="20" font-weight="800" letter-spacing="3.5">THE HAPPY CLUB</text>
+ <path d="M469 151l7 15 16 2-12 12 3 17-14-8-14 8 3-17-12-12 16-2z" fill="#FFE889"/>
+ <g transform="translate(316 273)">
+  <g fill="#FFE58A" stroke="#4D3A9C" stroke-width="3">
+   <ellipse cy="-66" rx="28" ry="53"/><ellipse cy="66" rx="28" ry="53"/>
+   <ellipse cx="-66" rx="53" ry="28"/><ellipse cx="66" rx="53" ry="28"/>
+   <ellipse cx="-47" cy="-47" rx="29" ry="50" transform="rotate(-45 -47 -47)"/>
+   <ellipse cx="47" cy="47" rx="29" ry="50" transform="rotate(-45 47 47)"/>
+   <ellipse cx="47" cy="-47" rx="29" ry="50" transform="rotate(45 47 -47)"/>
+   <ellipse cx="-47" cy="47" rx="29" ry="50" transform="rotate(45 -47 47)"/>
+  </g>
+  <circle r="69" fill="#F5A8B9" stroke="#4D3A9C" stroke-width="4"/>
+  <path d="M-26-5q12-17 24 0M17-5q12-17 24 0" fill="none" stroke="#4D3A9C" stroke-width="6" stroke-linecap="round"/>
+  <path d="M-22 23q23 26 47 0" fill="none" stroke="#4D3A9C" stroke-width="6" stroke-linecap="round"/>
+  <circle cx="-43" cy="14" r="7" fill="#F17B9E"/><circle cx="51" cy="14" r="7" fill="#F17B9E"/>
+ </g>
+ <text x="122" y="395" fill="#FEF4E8" font-family="Arial,sans-serif" font-size="15" font-weight="800" letter-spacing="2">OFFICIAL GOOD VIBES MEMBER</text>
+ <text x="498" y="394" text-anchor="end" fill="#FEF4E8" font-family="Arial,sans-serif" font-size="16" font-weight="700">NO. 001</text>
+</g>
+<g transform="translate(470 439) rotate(14)" filter="url(#smallshadow)">
+ <circle r="65" fill="#FBE98C" stroke="#3D306A" stroke-width="3"/>
+ <circle r="55" fill="none" stroke="#3D306A" stroke-width="1.5" stroke-dasharray="3 5"/>
+ <text x="0" y="-8" text-anchor="middle" font-size="17" fill="#3D306A" font-family="Arial,sans-serif" font-weight="900">YOU</text>
+ <text x="0" y="13" text-anchor="middle" font-size="17" fill="#3D306A" font-family="Arial,sans-serif" font-weight="900">BELONG</text>
+ <text x="0" y="34" text-anchor="middle" font-size="17" fill="#3D306A" font-family="Arial,sans-serif" font-weight="900">HERE ✦</text>
+</g>
+<path d="M85 53l9 20 20 9-20 9-9 20-9-20-20-9 20-9zM527 64l6 13 13 6-13 6-6 13-6-13-13-6 13-6z" fill="#5640B4"/>
+<path d="M31 287l9 20 20 9-20 9-9 20-9-20-20-9 20-9z" fill="#FFF4DA"/>
+</svg>

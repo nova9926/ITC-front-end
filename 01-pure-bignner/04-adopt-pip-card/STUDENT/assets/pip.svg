@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="260" height="230" viewBox="0 0 260 230" role="img" aria-label="Cute puppy named Pip waving">
+ <rect width="260" height="230" rx="22" fill="#E7F4FE"/>
+ <path d="M71 102Q39 46 72 46q28 5 34 45" fill="#9C704F"/><path d="M186 102q38-58 4-56q-28 5-35 45" fill="#9C704F"/>
+ <ellipse cx="130" cy="148" rx="73" ry="71" fill="#CFA17A"/>
+ <ellipse cx="130" cy="126" rx="74" ry="67" fill="#E4B98F"/>
+ <ellipse cx="130" cy="155" rx="45" ry="39" fill="#FFF5E5"/>
+ <circle cx="103" cy="123" r="7" fill="#302B2D"/><circle cx="158" cy="123" r="7" fill="#302B2D"/>
+ <ellipse cx="130" cy="149" rx="13" ry="9" fill="#373038"/>
+ <path d="M130 158q-10 14-21 5m21-5q10 14 21 5" stroke="#373038" stroke-width="4" fill="none" stroke-linecap="round"/>
+ <ellipse cx="85" cy="149" rx="10" ry="6" fill="#EFA3A1" opacity=".8"/><ellipse cx="174" cy="149" rx="10" ry="6" fill="#EFA3A1" opacity=".8"/>
+ <ellipse cx="88" cy="205" rx="25" ry="10" fill="#CFA17A"/><ellipse cx="173" cy="205" rx="25" ry="10" fill="#CFA17A"/>
+ <path d="M215 53q4-13 15-5q7 10-15 25q-23-12-16-24q9-9 16 4" fill="#F2A7BD"/>
+</svg>

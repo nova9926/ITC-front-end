@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="290" height="230" viewBox="0 0 290 230" role="img" aria-label="Stack of smiling golden pancakes on a plate">
+  <rect width="290" height="230" rx="24" fill="#FFF3E5"/>
+  <circle cx="42" cy="47" r="12" fill="#F9B9B9"/><circle cx="246" cy="53" r="11" fill="#FFE18C"/>
+  <ellipse cx="145" cy="188" rx="111" ry="22" fill="#E0D8D0"/>
+  <ellipse cx="145" cy="183" rx="108" ry="20" fill="#FFFFFF" stroke="#E6D9C9" stroke-width="4"/>
+  <ellipse cx="145" cy="160" rx="83" ry="23" fill="#CF8E4F"/><ellipse cx="145" cy="153" rx="86" ry="23" fill="#F2BB70"/>
+  <ellipse cx="145" cy="134" rx="83" ry="22" fill="#CF8E4F"/><ellipse cx="145" cy="128" rx="86" ry="22" fill="#F4C37B"/>
+  <ellipse cx="145" cy="109" rx="78" ry="22" fill="#CE8849"/><ellipse cx="145" cy="101" rx="80" ry="24" fill="#F5CB83"/>
+  <path d="M119 86q-3-23 15-26q9-2 16 10q8-13 20-9q13 6 5 25z" fill="#F7EFA1"/>
+  <path d="M111 94q21 5 41-4t26 5" fill="none" stroke="#9A5A30" stroke-width="8" stroke-linecap="round"/>
+  <path d="M140 108l-7 7m26-8l7 6" stroke="#704B39" stroke-width="3" stroke-linecap="round"/>
+  <circle cx="125" cy="108" r="4" fill="#52372B"/><circle cx="161" cy="108" r="4" fill="#52372B"/>
+  <path d="M136 122q10 7 19 0" stroke="#52372B" stroke-width="3" stroke-linecap="round" fill="none"/>
+  <circle cx="110" cy="116" r="7" fill="#EE9E86" opacity=".65"/><circle cx="176" cy="116" r="7" fill="#EE9E86" opacity=".65"/>
+  <path d="M211 78q-3-10 6-14q-1 10 7 13q-9 1-13 10z" fill="#E698AA"/>
+</svg>

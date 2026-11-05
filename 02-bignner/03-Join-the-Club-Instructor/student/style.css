@@ -1,0 +1,245 @@
+/* CHALLENGE 04 — THE HAPPY CLUB */
+:root {
+  --ink: #372A4E;
+  --purple: #5945B7;
+  --lilac: #E7DEFD;
+  --rose: #F9B6C7;
+  --paper: #FFFDF9;
+  --cream: #FFF9F0;
+  --muted: #796E86;
+  --line: #E7E1E9;
+  --yellow: #FCEB9D;
+}
+* { box-sizing: border-box; }
+body { margin: 0; font-family: Arial, sans-serif; background: var(--cream); color: var(--ink); }
+button, input, select { font: inherit; }
+a { color: inherit; }
+
+.site-header, .site-footer { max-width: 1200px; margin: auto; padding: 20px; }
+.site-header { display: flex; justify-content: space-between; gap: 12px; align-items: center; }
+.brand { font-weight: 800; text-decoration: none; }
+.page-layout { max-width: 1200px; padding: 12px 20px 28px; margin: auto; }
+.welcome-panel, .form-panel { padding: 25px; margin-bottom: 20px; }
+.club-artwork { display: block; width: 100%; height: auto; }
+.field { margin-bottom: 18px; }
+.field label { display: block; margin-bottom: 7px; font-size: 12px; font-weight: 800; }
+.field input, .field select { display: block; width: 100%; max-width: 100%; padding: 12px; border: 1px solid var(--line); border-radius: 6px; }
+.field-hint { display: block; margin-top: 5px; color: var(--muted); }
+.vibe-group { margin: 12px 0; padding: 12px; }
+.vibe-options { display: flex; flex-wrap: wrap; gap: 15px; margin-top: 10px; }
+.checkbox-line { display: flex; gap: 10px; align-items: flex-start; margin: 18px 0; }
+.join-button { background: var(--purple); color: white; padding: 14px 20px; border: none; cursor: pointer; }
+.privacy-note { color: var(--muted); font-size: 12px; }
+
+/* Header and footer */
+.brand {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 20px;
+  letter-spacing: -1px;
+}
+.brand-icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 38px;
+  height: 38px;
+  background: var(--yellow);
+  border-radius: 10px;
+  color: var(--purple);
+  font-size: 24px;
+}
+.header-note {
+  color: var(--muted);
+  font-size: 11px;
+  font-weight: bold;
+  letter-spacing: 2px;
+}
+.site-footer {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 8px;
+  color: var(--muted);
+  font-size: 10px;
+  font-weight: bold;
+  letter-spacing: 1px;
+}
+
+/* Two panels */
+.page-layout {
+  display: grid;
+  grid-template-columns: 1fr 1.1fr;
+  gap: 22px;
+}
+.welcome-panel, .form-panel {
+  margin-bottom: 0;
+  border-radius: 28px;
+}
+.welcome-panel {
+  background: var(--lilac);
+  padding: 44px 38px;
+}
+.form-panel {
+  background: var(--paper);
+  border: 1px solid var(--line);
+  padding: 38px 46px;
+}
+
+/* Left panel */
+.eyebrow, .tiny-label {
+  color: var(--purple);
+  font-size: 10px;
+  font-weight: bold;
+  letter-spacing: 2px;
+  margin: 0;
+}
+h1 {
+  font-size: 62px;
+  line-height: 1;
+  letter-spacing: -3px;
+  margin: 28px 0 22px;
+}
+h1 em {
+  color: var(--purple);
+  font-style: normal;
+}
+.welcome-description {
+  color: var(--muted);
+  font-size: 15px;
+  line-height: 1.7;
+  max-width: 380px;
+  margin: 0 0 24px;
+}
+.welcome-footnote {
+  color: var(--muted);
+  font-size: 12px;
+  font-weight: bold;
+  margin: 24px 0 0;
+}
+
+/* Right panel */
+h2 {
+  font-size: 40px;
+  letter-spacing: -2px;
+  margin: 14px 0 10px;
+}
+.form-intro {
+  color: var(--muted);
+  font-size: 14px;
+  margin: 0 0 26px;
+}
+.form-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 0 14px;
+}
+.full-width { grid-column: 1 / -1; }
+.field label { font-size: 10px; letter-spacing: 1.5px; }
+.field input, .field select {
+  padding: 14px;
+  background: white;
+  border-radius: 12px;
+  font-size: 13px;
+}
+.field input:focus, .field select:focus {
+  outline: 3px solid var(--lilac);
+  border-color: var(--purple);
+}
+.field-hint { font-size: 10px; }
+
+/* Vibe cards */
+.vibe-group {
+  border: none;
+  padding: 0;
+  margin: 20px 0;
+}
+.vibe-group legend {
+  font-size: 10px;
+  font-weight: bold;
+  letter-spacing: 1.5px;
+  padding: 0;
+}
+.vibe-options {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 9px;
+}
+.vibe-option { position: relative; }
+.vibe-option input {
+  position: absolute;
+  opacity: 0;
+}
+.vibe-option span {
+  display: block;
+  padding: 14px 6px;
+  background: white;
+  border: 1px solid var(--line);
+  border-radius: 12px;
+  font-size: 12px;
+  font-weight: bold;
+  text-align: center;
+  cursor: pointer;
+}
+.vibe-option input:checked + span {
+  background: var(--lilac);
+  border-color: var(--purple);
+  color: var(--purple);
+}
+.vibe-option input:focus-visible + span {
+  outline: 3px solid var(--purple);
+  outline-offset: 2px;
+}
+
+/* Checkbox and button */
+.checkbox-line { font-size: 11px; color: var(--muted); }
+.checkbox-line input {
+  width: 17px;
+  height: 17px;
+  margin: 0;
+  flex-shrink: 0;
+  accent-color: var(--purple);
+}
+.join-button {
+  width: 100%;
+  padding: 17px;
+  border-radius: 12px;
+  font-size: 15px;
+  font-weight: bold;
+}
+.join-button:hover { background: var(--ink); }
+.join-button:focus-visible, .brand:focus-visible, .checkbox-line input:focus-visible {
+  outline: 3px solid var(--ink);
+  outline-offset: 2px;
+}
+.privacy-note {
+  font-size: 10px;
+  text-align: center;
+  margin: 16px 0 0;
+}
+
+/* Tablets: the panels stack */
+@media (max-width: 900px) {
+  .page-layout { grid-template-columns: 1fr; }
+}
+
+/* Phones */
+@media (max-width: 480px) {
+  .site-header, .site-footer { padding: 16px 14px; }
+  .header-note { display: none; }
+  .page-layout { padding: 0 12px 16px; gap: 12px; }
+  .welcome-panel { padding: 30px 22px; }
+  .form-panel { padding: 26px 20px; }
+  h1 { font-size: 46px; letter-spacing: -2px; }
+  h2 { font-size: 32px; letter-spacing: -1.5px; }
+  .eyebrow { letter-spacing: 1px; }
+  .site-footer { flex-direction: column; }
+}
+
+/* Very small phones: one column */
+@media (max-width: 360px) {
+  .form-grid { grid-template-columns: 1fr; }
+  .vibe-options { grid-template-columns: 1fr; }
+  h2 { font-size: 27px; }
+}

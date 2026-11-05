@@ -1,0 +1,59 @@
+/* CHALLENGE 01 — start here! */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #EDE6FF;
+  color: #443C61;
+  text-align: center;
+  margin: 0;
+  padding: 40px 20px;
+}
+.poster {
+  background-color: white;
+  max-width: 420px;
+  margin: 0 auto;
+  padding: 30px;
+  border: 3px solid #2E2250;
+  box-shadow: 8px 8px 0 #C9B6F7;
+  border-radius: 20px;
+}
+img { width: 250px; max-width: 100%; }
+
+.eyebrow {
+    color: #8B7FC7;
+    font-size: 13px;
+    letter-spacing: 2px;
+}
+
+h1 {
+    font-size: 36px;
+}
+
+h1 span {
+    color: #83ff;
+}
+
+.lead {
+    font-size: 18px;
+    color: #665599
+}
+
+.little {
+    background-color: #FFE68A;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.footer {
+    color: #8B7FC7;
+    font-size: 14px;
+}
+
+.button {
+    display: inline-block;
+    background-color: #6B4EE6;
+    color: white;
+    padding: 12px 24px;
+    border-radius: 999px;
+    text-decoration: none;
+    font-weight: bold;
+}

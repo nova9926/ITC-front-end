@@ -1,0 +1,195 @@
+/* CHALLENGE 02 — GOLDEN TICKET */
+:root {
+  --cream: #f7f0df;
+  --ink: #302340;
+  --coral: #ff7959;
+  --yellow: #ffdf69;
+  --paper: #fffaf0;
+  --muted: #776b7b;
+}
+* { box-sizing: border-box; }
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background: var(--cream);
+  color: var(--ink);
+}
+.coral { color: var(--coral); }
+
+/* Header */
+.site-header, .site-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 16px;
+  max-width: 1160px;
+  margin: 0 auto;
+  padding: 20px;
+}
+.site-header p, .site-footer p { margin: 0; }
+.brand {
+  font-size: 26px;
+  font-weight: bold;
+  letter-spacing: -1px;
+}
+.challenge-label {
+  font-size: 11px;
+  font-weight: bold;
+  letter-spacing: 2px;
+}
+
+/* Intro */
+.intro {
+  text-align: center;
+  padding: 24px 20px 36px;
+}
+.intro-label {
+  font-size: 11px;
+  font-weight: bold;
+  letter-spacing: 2px;
+  margin: 0;
+}
+h1 {
+  font-size: 66px;
+  letter-spacing: -3px;
+  margin: 14px 0;
+}
+.intro-text {
+  color: var(--muted);
+  font-size: 15px;
+  margin: 0;
+}
+
+/* Ticket */
+.ticket {
+  display: flex;
+  max-width: 1160px;
+  margin: 0 auto;
+  border: 3px solid var(--ink);
+  border-radius: 16px;
+  box-shadow: 14px 14px 0 var(--ink);
+  overflow: hidden;
+}
+.ticket-left {
+  flex: 3;
+  background: var(--coral);
+  padding: 30px;
+}
+.ticket-right {
+  flex: 2;
+  background: var(--paper);
+  padding: 30px;
+  border-left: 3px dashed var(--ink);
+}
+.ticket-row {
+  display: flex;
+  justify-content: space-between;
+  gap: 16px;
+  font-size: 10px;
+  font-weight: bold;
+  letter-spacing: 1.5px;
+}
+.ticket-row-top {
+  padding-bottom: 14px;
+  border-bottom: 2px solid var(--ink);
+}
+.ticket-row-bottom {
+  padding-top: 14px;
+  border-top: 2px solid var(--ink);
+}
+.overline {
+  font-size: 11px;
+  font-weight: bold;
+  letter-spacing: 1.5px;
+  margin: 22px 0 8px;
+}
+.ticket-right .overline {
+  color: var(--muted);
+  margin-top: 0;
+}
+.festival-name {
+  font-size: 104px;
+  line-height: 0.9;
+  letter-spacing: -3px;
+  margin: 0;
+  text-shadow: 4px 4px 0 var(--yellow);
+}
+.festival-text {
+  font-size: 14px;
+  font-weight: bold;
+  line-height: 1.4;
+  margin: 20px 0 24px;
+}
+.admit {
+  font-size: 30px;
+  letter-spacing: -1px;
+  margin: 0 0 34px;
+}
+.detail-row {
+  display: flex;
+  gap: 24px;
+}
+.detail { margin-bottom: 22px; }
+.detail-label {
+  color: var(--muted);
+  font-size: 10px;
+  font-weight: bold;
+  letter-spacing: 1.5px;
+  margin: 0 0 6px;
+}
+.detail-value {
+  font-size: 15px;
+  font-weight: bold;
+  margin: 0;
+}
+.ticket-number {
+  font-size: 11px;
+  font-weight: bold;
+  letter-spacing: 1px;
+  margin: 12px 0 0;
+  padding-top: 16px;
+  border-top: 2px solid var(--ink);
+}
+
+/* Footer */
+.site-footer {
+  flex-wrap: wrap;
+  color: var(--muted);
+  font-size: 10px;
+  font-weight: bold;
+  letter-spacing: 1.5px;
+  margin-top: 24px;
+}
+main { padding: 0 20px; }
+
+/* Tablet */
+@media (max-width: 1000px) {
+  h1 { font-size: 44px; letter-spacing: -2px; }
+  .festival-name { font-size: 68px; }
+}
+
+/* Phones: the two panels stack */
+@media (max-width: 700px) {
+  main { padding: 0 14px; }
+  .site-header, .site-footer { padding: 16px 14px; }
+  h1 { font-size: 32px; letter-spacing: -2px; }
+  .brand { font-size: 22px; white-space: nowrap; }
+  .challenge-label { font-size: 9px; letter-spacing: 1px; white-space: nowrap; }
+  .ticket-row { font-size: 8px; }
+  .ticket {
+    flex-direction: column;
+    box-shadow: 8px 8px 0 var(--ink);
+  }
+  .ticket-left, .ticket-right {
+    flex: none;
+    padding: 24px;
+  }
+  .ticket-right {
+    border-left: none;
+    border-top: 3px dashed var(--ink);
+  }
+  .site-footer {
+    flex-direction: column;
+    text-align: center;
+  }
+}

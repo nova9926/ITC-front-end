@@ -1,0 +1,61 @@
+/* CHALLENGE 02 — basic CSS */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #FFEBD3;
+  color: #513829;
+  margin: 0;
+  padding: 20px;
+}
+.recipe {
+  background-color: #fffdf7;
+  max-width: 700px;
+  margin: 20px auto;
+  padding: 34px;
+  border: 2px solid #E6BE94;
+  border-radius: 20px;
+}
+img { width: 100%; }
+.top-note {
+    color: #C27A4A;
+    font-size: 12px;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+h1{
+    font-family: Georgia, serif;
+    font-size: 46px;
+    margin: 0;
+}
+h1 em {
+    color: #D0743C;
+}
+.intro {
+    color: #7E5F4B;
+    font-size: 18px;
+}
+.info{
+    background-color: #FAEBD0;
+    padding: 12px;
+    border-radius: 8px;
+    text-align: center;
+}
+h2 {
+    font-family: Georgia, serif;
+    color: #B8623A;
+    padding-bottom: 8px;
+    border-bottom: 2px solid #EEDFCB;
+}
+li {
+    margin-bottom: 22px;
+}
+.tip {
+  background-color: #FBE4BD;
+  padding: 18px;
+  border-left: 5px solid #CF7440;
+  border-radius: 6px;
+}
+.footer {
+  color: #B8623A;
+  font-weight: bold;
+  text-align: center;
+}

@@ -1,0 +1,78 @@
+/* CHALLENGE 03 — simple tables and basic CSS */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #DFF3F7;
+  color: #244651;
+  margin: 0;
+  padding: 20px 14px;
+}
+.board {
+  background-color: white;
+  max-width: 770px;
+  margin: 15px auto;
+  padding: 32px;
+  border: 3px solid #356C77;
+  border-radius: 24px;
+}
+img {
+  display: block;
+  width: 100%;
+  max-width: 590px;
+  margin: 0 auto;
+}
+.top-note {
+  color: #397C8A;
+  font-size: 12px;
+  font-weight: bold;
+  letter-spacing: 2px;
+}
+h1 {
+  color: #236675;
+  font-size: 42px;
+  margin: 0;
+}
+.intro {
+  color: #627A82;
+  font-size: 18px;
+  margin-bottom: 23px;
+}
+h2 {
+  font-size: 22px;
+  margin: 26px 0 18px;
+}
+table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 15px;
+}
+th, td {
+  padding: 15px;
+  text-align: left;
+}
+th {
+  background-color: #236675;
+  color: white;
+}
+td {
+  border-bottom: 1px solid #CADFE3;
+}
+tbody tr:nth-child(even) {
+  background-color: #EFF8F9;
+}
+.reminder {
+  background-color: #FFF1C4;
+  padding: 18px;
+  border-radius: 14px;
+  margin: 25px 0;
+  display: flex;
+}
+.footer {
+  color: #3F818F;
+  font-weight: bold;
+  text-align: center;
+}
+@media (max-width: 360px) {
+  th, td {
+    padding: 12px 8px;
+  }
+}

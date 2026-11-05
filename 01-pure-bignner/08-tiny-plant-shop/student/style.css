@@ -1,0 +1,101 @@
+/* CHALLENGE 04 — slightly harder, but still only basic CSS */
+body {
+  background-color: #E6F0DC;
+  color: #264737;
+  font-family: Arial, sans-serif;
+  text-align: center;
+  margin: 0;
+  padding: 35px 12px;
+}
+.shop { max-width: 1030px; margin: 0 auto; }
+.brand {
+  color: #4B7454;
+  font-size: 14px;
+  font-weight: bold;
+  letter-spacing: 3px;
+}
+h1 {
+  font-family: Georgia, serif;
+  font-size: 47px;
+  margin: 0;
+}
+h1 em {
+  color: #779D64;
+}
+.intro {
+  color: #678172;
+  font-size: 18px;
+  margin-bottom: 39px;
+}
+.plant {
+  display: inline-block;
+  vertical-align: top;
+  box-sizing: border-box;
+  width: 29%;
+  background-color: white;
+  border: 2px solid #BDD2B7;
+  border-radius: 16px;
+  margin: 8px;
+  padding: 12px;
+  text-align: left;
+}
+.plant img {
+  display: block;
+  width: 100%;
+}
+.plant h2 {
+  font-size: 24px;
+  margin: 22px 7px 10px;
+}
+.plant p {
+  color: #708377;
+  font-size: 14px;
+  margin: 0 7px 18px;
+}
+.plant .price {
+  color: #31553D;
+  font-size: 23px;
+  font-weight: bold;
+  margin-bottom: 18px;
+}
+.plant a {
+  display: block;
+  background-color: #315D45;
+  color: white;
+  font-size: 14px;
+  font-weight: bold;
+  text-align: center;
+  text-decoration: none;
+  line-height: 16px;
+  padding: 13px;
+  border-radius: 8px;
+  margin-bottom: 13px;
+}
+.slogan {
+  background-color: #FFF5CB;
+  max-width: 630px;
+  margin: 32px auto 24px;
+  padding: 18px;
+  border-radius: 10px;
+}
+.footer {
+  color: #73917C;
+  font-size: 12px;
+}
+@media (max-width: 660px) {
+  h1 {
+    font-size: 34px;
+  }
+  .intro {
+    padding: 0 10px;
+    margin-bottom: 37px;
+  }
+  .plant {
+    display: block;
+    width: auto;
+    margin: 16px 2px;
+  }
+  .slogan {
+    margin: 30px 2px 24px;
+  }
+}

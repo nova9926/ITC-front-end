@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="280" height="240" viewBox="0 0 280 240" role="img" aria-label="Cute golden hamster waving">
+  <rect width="280" height="240" rx="30" fill="#FFF0D6"/>
+  <circle cx="45" cy="45" r="12" fill="#FFD579"/><circle cx="232" cy="187" r="10" fill="#F6C2CE"/>
+  <path d="M46 179c35-12 155-15 188 0" fill="none" stroke="#E0BA8E" stroke-width="5" stroke-linecap="round"/>
+  <ellipse cx="140" cy="160" rx="72" ry="57" fill="#CA8C5C"/>
+  <circle cx="88" cy="80" r="34" fill="#BC7951"/><circle cx="192" cy="80" r="34" fill="#BC7951"/>
+  <circle cx="88" cy="80" r="22" fill="#F5C0B6"/><circle cx="192" cy="80" r="22" fill="#F5C0B6"/>
+  <ellipse cx="140" cy="120" rx="77" ry="72" fill="#DFA66F"/>
+  <ellipse cx="140" cy="148" rx="57" ry="44" fill="#FFF0D7"/>
+  <circle cx="109" cy="115" r="7" fill="#372B2A"/><circle cx="171" cy="115" r="7" fill="#372B2A"/>
+  <circle cx="91" cy="141" r="15" fill="#F2A29D" opacity=".75"/><circle cx="189" cy="141" r="15" fill="#F2A29D" opacity=".75"/>
+  <path d="M134 137q6-5 12 0l-6 6z" fill="#67413D"/><path d="M140 144q-9 12-19 5m19-5q9 12 19 5" fill="none" stroke="#67413D" stroke-width="3" stroke-linecap="round"/>
+  <ellipse cx="91" cy="190" rx="20" ry="12" fill="#E4AC7A"/><ellipse cx="189" cy="190" rx="20" ry="12" fill="#E4AC7A"/>
+  <path d="M234 60l9 12 14-6-8 14 12 9-16-1-5 15-3-16-16-2 13-8z" fill="#FFCC6D"/>
+</svg>

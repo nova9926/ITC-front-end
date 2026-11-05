@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 240" role="img" aria-labelledby="title desc">
+  <title id="title">Milo's friendly illustrated avatar</title>
+  <desc id="desc">A smiling character with brown hair, round glasses, peach cheeks and a lilac sweater.</desc>
+  <defs>
+    <clipPath id="round"><circle cx="120" cy="120" r="120"/></clipPath>
+  </defs>
+  <g clip-path="url(#round)">
+    <rect width="240" height="240" fill="#d8f3e9"/>
+    <circle cx="207" cy="42" r="41" fill="#b6eadd"/>
+    <circle cx="35" cy="184" r="47" fill="#c5f0e5"/>
+    <path d="M43 240c6-51 29-76 77-76s72 25 77 76" fill="#7c78d3"/>
+    <path d="M92 174l28 28 28-28" fill="#fff4e4"/>
+    <rect x="105" y="144" width="30" height="43" rx="14" fill="#eaa480"/>
+    <ellipse cx="120" cy="113" rx="63" ry="75" fill="#573d43"/>
+    <ellipse cx="65" cy="125" rx="12" ry="17" fill="#edae91"/>
+    <ellipse cx="175" cy="125" rx="12" ry="17" fill="#edae91"/>
+    <ellipse cx="120" cy="119" rx="54" ry="63" fill="#f2bd9c"/>
+    <path d="M66 108c-4-48 22-75 55-74 32-1 58 21 57 65-13-4-20-23-26-33-12 18-46 26-87 27z" fill="#573d43"/>
+    <path d="M65 96c-7-16-5-37 7-53 17-23 55-28 77-14 16 10 25 24 28 43-25-11-43-17-59-16-20 20-38 31-53 40z" fill="#573d43"/>
+    <path d="M83 115h28m18 0h28" stroke="#4c404d" stroke-width="5" stroke-linecap="round"/>
+    <circle cx="97" cy="117" r="18" fill="#ffffff" fill-opacity=".14" stroke="#4c404d" stroke-width="5"/>
+    <circle cx="143" cy="117" r="18" fill="#ffffff" fill-opacity=".14" stroke="#4c404d" stroke-width="5"/>
+    <circle cx="97" cy="119" r="3.5" fill="#45373b"/>
+    <circle cx="143" cy="119" r="3.5" fill="#45373b"/>
+    <ellipse cx="85" cy="139" rx="10" ry="5" fill="#ee9a96" opacity=".63"/>
+    <ellipse cx="155" cy="139" rx="10" ry="5" fill="#ee9a96" opacity=".63"/>
+    <path d="M111 145q9 9 18 0" fill="none" stroke="#9e5a59" stroke-width="3.5" stroke-linecap="round"/>
+    <path d="M101 199l19 20 19-20" fill="none" stroke="#645dba" stroke-width="4"/>
+    <g fill="#fff7af">
+      <path d="M28 68l3 9 9 3-9 3-3 9-3-9-9-3 9-3z"/>
+      <circle cx="193" cy="166" r="4"/>
+      <circle cx="44" cy="135" r="3"/>
+    </g>
+  </g>
+</svg>

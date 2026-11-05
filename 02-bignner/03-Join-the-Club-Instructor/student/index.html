@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="The Happy Club — HTML and CSS form challenge">
+  <title>The Happy Club</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="site-header">
+    <a href="index.html" class="brand"><span class="brand-icon">✳</span> the happy club.</a>
+    <span class="header-note">FOR NICE WEIRDOS EVERYWHERE ✦</span>
+  </header>
+
+  <main class="page-layout">
+    <section class="welcome-panel" aria-labelledby="welcome-title">
+      <p class="eyebrow">✴ THE INTERNET'S NICEST LITTLE CORNER</p>
+      <h1 id="welcome-title">Find your<br>kind of <em>weird.</em></h1>
+      <p class="welcome-description">A cozy club for the curious, the creative, and the people who wave at dogs.</p>
+      <img class="club-artwork" src="assets/club-card.svg" alt="Colorful Happy Club membership card featuring a smiling flower">
+      <p class="welcome-footnote">✷ ✷ ✷ &nbsp; No coolness test. Just good vibes.</p>
+    </section>
+
+    <section class="form-panel" aria-labelledby="form-title">
+      <p class="tiny-label">● YOUR NEW FAVORITE PLACE</p>
+      <h2 id="form-title">Well, hello there! 👋</h2>
+      <p class="form-intro">Fill this in and consider yourself officially delightful.</p>
+
+      <form class="signup-form" action="welcome.html" method="get">
+        <div class="form-grid">
+          <div class="field">
+            <label for="first-name">FIRST NAME *</label>
+            <input id="first-name" type="text" placeholder="e.g. Alex" autocomplete="given-name" required>
+          </div>
+          <div class="field">
+            <label for="last-name">LAST NAME *</label>
+            <input id="last-name" type="text" placeholder="e.g. Sunshine" autocomplete="family-name" required>
+          </div>
+          <div class="field full-width">
+            <label for="email">EMAIL ADDRESS *</label>
+            <input id="email" type="email" placeholder="you@somewhere.cool" autocomplete="email" required>
+          </div>
+          <div class="field full-width">
+            <label for="password">MAKE A PASSWORD *</label>
+            <input id="password" type="password" minlength="8" placeholder="At least 8 characters" autocomplete="new-password" required>
+            <small class="field-hint">A tiny secret, just for you. Minimum 8 characters.</small>
+          </div>
+          <div class="field full-width">
+            <label for="interest">WHAT MAKES YOU HAPPY? *</label>
+            <select id="interest" required>
+              <option value="" disabled selected>Pick your happy thing...</option>
+              <option value="art">Making stuff &amp; being creative</option>
+              <option value="games">Games &amp; geeky adventures</option>
+              <option value="food">Snacks, coffee &amp; good food</option>
+              <option value="all">A little bit of everything</option>
+            </select>
+          </div>
+        </div>
+
+        <fieldset class="vibe-group">
+          <legend>CHOOSE YOUR VIBE *</legend>
+          <div class="vibe-options">
+            <label class="vibe-option"><input type="radio" name="vibe" value="chill" required><span>🌿 Chill</span></label>
+            <label class="vibe-option"><input type="radio" name="vibe" value="chaotic"><span>⚡ Chaotic</span></label>
+            <label class="vibe-option"><input type="radio" name="vibe" value="sunshine"><span>☀️ Sunshine</span></label>
+          </div>
+        </fieldset>
+
+        <label class="checkbox-line" for="club-rules">
+          <input id="club-rules" type="checkbox" required>
+          <span>I promise to bring good vibes and respect the other club members. *</span>
+        </label>
+        <button type="submit" class="join-button">Join the happy club ↗</button>
+        <p class="privacy-note">♡ This is a practice form. Your personal info is not sent anywhere.</p>
+      </form>
+    </section>
+  </main>
+  <footer class="site-footer"><span>© The Happy Club • Made with sunshine &amp; HTML</span><span>CHALLENGE 04 / FORM + INPUTS</span></footer>
+</body>
+</html>

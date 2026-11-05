@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="260" height="210" viewBox="0 0 260 210" role="img" aria-label="Smiling lemonade glass and sunny lemon">
+ <rect width="260" height="210" rx="26" fill="#FFF2A9"/>
+ <circle cx="215" cy="46" r="21" fill="#FFC94B"/><path d="M215 8v13m0 50v13m38-38h-13m-50 0h-13" stroke="#FFBF36" stroke-width="5" stroke-linecap="round"/>
+ <path d="M97 44h98l-10 131q-2 13-14 13h-52q-13 0-14-13z" fill="#FCFCF7" stroke="#DCA76C" stroke-width="5"/>
+ <path d="M104 78h85l-8 88q-1 12-13 12h-46q-10 0-11-12z" fill="#FFDE6A"/>
+ <path d="M159 61l-22-42" stroke="#EA8C5F" stroke-width="8" stroke-linecap="round"/>
+ <circle cx="128" cy="121" r="6" fill="#564934"/><circle cx="159" cy="121" r="6" fill="#564934"/>
+ <path d="M130 141q13 12 27 0" fill="none" stroke="#564934" stroke-width="4" stroke-linecap="round"/>
+ <circle cx="117" cy="140" r="8" fill="#FFAD89" opacity=".75"/><circle cx="172" cy="140" r="8" fill="#FFAD89" opacity=".75"/>
+ <circle cx="64" cy="155" r="32" fill="#FFD142" stroke="#F5AC25" stroke-width="5"/>
+ <circle cx="64" cy="155" r="24" fill="#FFE575"/><path d="M64 133v44m-22-22h44m-37-16l31 32m0-32l-31 32" stroke="#F9BA3A" stroke-width="3"/>
+</svg>

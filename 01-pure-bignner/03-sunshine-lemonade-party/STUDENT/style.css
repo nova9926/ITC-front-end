@@ -1,0 +1,13 @@
+/* Challenge 03: change the colors! */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #fff9d8;
+  color: #4b3b32;
+}
+h1 {
+    color: #e37428;
+    text-align: center;
+}
+h2 {
+    color: #558b55;
+}
